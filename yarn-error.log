@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Arne\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run vite
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Arne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Arne\.local\share\solana\install\active_release\bin;C:\Users\Arne\AppData\Local\Microsoft\WindowsApps;C:\Users\Arne\AppData\Local\Microsoft\WindowsApps;C:\Users\Arne\.dotnet\tools;C:\Users\Arne\AppData\Roaming\npm;C:\Users\Arne\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Arne\port\website\package.json: Unexpected token } in JSON at position 313
+      at JSON.parse (<anonymous>)
+      at C:\Users\Arne\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Arne\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Arne\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nftsurance",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "devDependencies": {
+      "@react-spring/parallax": "^9.4.4",
+      "dat.gui": "^0.7.7",
+      "vite": "^2.8.0",
+      "@vitejs/plugin-react": "^1.0.7",
+    },
+    "dependencies": {
+      "gsap": "^3.10.4",
+      "live-server": "^1.2.1",
+      "smooth-scrollbar": "^8.7.4",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-spring": "^9.4.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
