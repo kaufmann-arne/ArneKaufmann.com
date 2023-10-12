@@ -1,10 +1,10 @@
-import * as THREE from 'three'
-import gsap from 'gsap'
-import vertexShader from './shaders/vertex.glsl'
-import fragmentShader from './shaders/fragment.glsl'
-import atmosphereVertexShader from './shaders/atmosphereVertex.glsl'
-import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl'
-// import style from './style.css'
+import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js'
+import gsap from 'https://cdn.skypack.dev/gsap'
+import vertexShader from './shaders/vertex.glsl?raw'
+import fragmentShader from './shaders/fragment.glsl?raw'
+import atmosphereVertexShader from './shaders/atmosphereVertex.glsl?raw'
+import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl?raw'
+import worldMap from './assets/zzz.png?url'
 
 
 const canvas = document.querySelector('#bg')
@@ -33,7 +33,7 @@ const sphere = new THREE.Mesh(new THREE.SphereGeometry(5, 50, 50), new THREE.Sha
     fragmentShader: fragmentShader,
     uniforms: {
         globeTexture: {
-            value: new THREE.TextureLoader().load('./assets/zzz.png')
+            value: new THREE.TextureLoader().load(worldMap)
         }
     }
 }))

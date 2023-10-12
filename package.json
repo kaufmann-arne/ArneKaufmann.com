@@ -9,16 +9,17 @@
   },
   "devDependencies": {
     "@react-spring/parallax": "^9.4.4",
+    "@vitejs/plugin-react": "^1.0.7",
     "dat.gui": "^0.7.7",
     "vite": "^2.8.0",
-    "@vitejs/plugin-react": "^1.0.7"
+    "vite-plugin-string": "^1.2.2"
   },
   "dependencies": {
     "gsap": "^3.10.4",
     "live-server": "^1.2.1",
-    "smooth-scrollbar": "^8.7.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-spring": "^9.4.4"
+    "react-spring": "^9.4.4",
+    "smooth-scrollbar": "^8.7.4"
   }
 }

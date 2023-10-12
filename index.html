@@ -2,10 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="assets/aka.jpg" />
+    <link rel="icon" type="image/svg+xml" href="assets/AKA.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/c1a8b2d676.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://kit.fontawesome.com/c1a8b2d676.js" crossorigin="anonymous"></script>
     <title>Arne Kaufmann | Web3 Developer</title>
+   <!--  <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.157.0/three.min.js",
+            }
+        }
+    </script> -->
   </head>
   <body>
 
@@ -14,6 +21,7 @@
     </div>
 
     <main>
+
 
       <nav>
         <a href="#header">
@@ -24,7 +32,7 @@
           <a href="https://twitter.com/kaufmann_arne">
             <li>
               <div class="magnetic-container button">
-                  <div class="magnetic-element" >                        
+                  <div class="magnetic-element" >               
                     <img src="assets/Icons/twitter.svg" />
                   </div>                    
                 <div class="magnetic-background"></div>
@@ -126,9 +134,11 @@
             <video loop autoplay muted id="vid">
               <source src="assets/done.mp4" type="video/mp4">
             </video>
-            <video loop autoplay muted id="vid" class="video">
-              <source src="assets/donec.mp4" type="video/mp4">
-            </video>
+            <div class="filter">
+              <video loop autoplay muted id="vid" class="video">
+                <source src="assets/donec.mp4" type="video/mp4">
+              </video>
+            </div>
             <button class="buttonA buttonX"><a href="#portfolio" class="buttonref">See my Work</a></button>
           </div>
         </header>
@@ -160,7 +170,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                    <img class="img" src="assets/icons/puzzle.png">
+                    <img class="img" src="assets/Icons/puzzle.png">
                 </div>
                 <h4>Valid8</h4>
                 <p class="p">Browser extension that uses onchain data to verify websites and partnerships</p>
@@ -178,7 +188,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/exchange.png">
+                  <img class="img" src="assets/Icons/exchange.png">
                 </div>
                 <h4>Uniswap Clone</h4>
                 <p class="p">A simplified version of Uniswap, using my own contracts</p>
@@ -196,7 +206,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/marketplace.png">
+                  <img class="img" src="assets/Icons/marketplace.png">
                 </div>
                 <h4>NFT Marketplace</h4>
                 <p class="p">Basic version of a marketplace with all key functionalities</p>
@@ -214,7 +224,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/lottery.png">
+                  <img class="img" src="assets/Icons/lottery.png">
                 </div>
                 <h4>Lottery</h4>
                 <p class="p">Simple smartcontract lottery that leverages Link oracles randomness functionality to fairly choose winners</p>
@@ -237,7 +247,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/pokeball.png">
+                  <img class="img" src="assets/Icons/pokeball.png">
                 </div>
                 <h4>Fakemon</h4>
                 <p class="p">Top-down 2D RPG with pixel graphics and big exploreable map</p>
@@ -255,7 +265,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/samurai.png">
+                  <img class="img" src="assets/Icons/samurai.png">
                 </div>
                 <h4>Lethal Combat</h4>
                 <p class="p">Simplistic street fighter clone with basic fighting mechanics</p>
@@ -273,7 +283,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/wolf.png">
+                  <img class="img" src="assets/Icons/wolf.png">
                 </div>
                 <h4>Wolf of Fire</h4>
                 <p class="p">Jump and run side srcoller with highscrore dynamics</p>
@@ -291,7 +301,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/sword.png">
+                  <img class="img" src="assets/Icons/sword.png">
                 </div>
                 <h4>Cubes</h4>
                 <p class="p">3D game in which the player has to doge enemies for a highscore</p>
@@ -314,7 +324,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/insurance.png">
+                  <img class="img" src="assets/Icons/insurance.png">
                 </div>
                 <h4>NFTsurance</h4>
                 <p class="p">Public website for an official NFT project</p>
@@ -332,7 +342,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/council.png">
+                  <img class="img" src="assets/Icons/council.png">
                 </div>
                 <h4>IDC</h4>
                 <p class="p">Public website for an collective of important Blockchain personas</p>
@@ -350,7 +360,7 @@
               </div>
               <div class="overlay">
                 <div class="icon">
-                  <img class="img" src="assets/icons/AK.png">
+                  <img class="img" src="assets/Icons/AK.png">
                 </div>
                 <h4>Arne Kaufmann</h4>
                 <p class="p">My very own website crafted with love for details</p>
@@ -389,7 +399,7 @@
             <div class="about-content">
               <section class="about-main">
                 <div class="tag-container">
-                  <div class="tagcloud" id="tag"></div>
+                  <div class="tagcloud" id="tagcloud"></div>
                 </div>
                 <p class="p2">
                   My journey into the world of programming began about 5 years ago with me making my first attempt at developing Android applications. As I became more and more captivated with programming I at some point got introduced to Web3 by a friend.
@@ -472,7 +482,7 @@
                   fontStretch: 'normal',
                   fontToUpperCase: true
                 };
-                $('#tag').svg3DTagCloud(settings);
+                $('#tagcloud').svg3DTagCloud(settings);
               }
             });
           </script>
@@ -489,27 +499,25 @@
           </h2>
           <p class="p3">You like my work and are interested to potentially work together on a project or hire me? Feel free to fill out the contact form below or reach out to me via any social media channel you find on the left hand side. I look forward to collaborating with you to bring your ideas to life!</p>
           <div>
-            <form action="https://formsubmit.co/arnekaufmannbusiness@gmail.com" method="POST" autocomplete="off">
-              <input type="hidden" name="_next" value="http://localhost:3000/">
-              <input type="hidden" name="_captcha" value="false">
+            <form onsubmit=" return false;" autocomplete="off" id="form">
               <label class="custom-field two">
-                <input type="text" name="name" placeholder="&nbsp;" class="input-name" required>
+                <input type="text" name="from_name" id="from_name" placeholder="&nbsp;" class="input-name" required>
                 <span class="placeholder">Name</span>
               </label>
               <label class="custom-field two">
-                <input type="email" name="email" placeholder="&nbsp;" class="input-mail" autocomplete="off" required>
+                <input type="email" name="email" id="email" placeholder="&nbsp;" class="input-mail" autocomplete="off" required>
                 <span class="placeholder">Mail</span>
               </label>
               <label class="custom-field two">
-                <input type="text" name="subject" placeholder="&nbsp;" class="input-subject" required>
+                <input type="text" name="subject" id="subject" placeholder="&nbsp;" class="input-subject" required>
                 <span class="placeholder">Subject</span>
               </label>
               <label class="custom-field two">
-                <textarea type="text" name="content" placeholder="&nbsp;" class="input-message" rows="6" required></textarea>
+                <textarea type="text" name="message" id="message" placeholder="&nbsp;" class="input-message" rows="6" required></textarea>
                 <span class="placeholder1">Message</span>
               </label>
-              <button class="buttonC  buttonX" type="submit">Send message!</button>
-            </form>        
+              <button class="buttonC  buttonX" type="submit" id="button">Send message!</button>
+            </form> 
           </div>
 
           <div class="planet" id="planet">
@@ -522,6 +530,34 @@
       </div>
 
     </main>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('4oRI9leGRpP1L2noM')
+    </script>
+    <script type="text/javascript">
+      const btn = document.getElementById('button');
+
+      document.getElementById('form')
+       .addEventListener('submit', function(event) {
+         event.preventDefault();
+
+         btn.value = 'Sending...';
+
+         const serviceID = 'default_service';
+         const templateID = 'template_39lvda2';
+
+         emailjs.sendForm(serviceID, templateID, this)
+          .then(() => {
+            btn.value = 'Send message!';
+            alert('Thanks, your Email has been sent!');
+          }, (err) => {
+            btn.value = 'Send message!';
+            alert(JSON.stringify(err));
+          });
+        this.reset()
+      });
+    </script>
 
     <script type="text/javascript">
       window.addEventListener('scroll', reveal);
@@ -551,7 +587,698 @@
       });   
     </script>
     
-    <script src="tagcloud2.min.js"></script>
+    <script type="text/javascript">
+            ( function() {
+          function SVG3DTagCloud( element, params ) {
+              var settings = {
+                  entries: [
+                      { label : 'HTML' , url: 'https://en.wikipedia.org/wiki/HTML'},
+                      { label : 'JavaScript', url: 'https://devdocs.io/javascript/'},
+                      { label : 'React' , url: 'https://react.dev/'},
+                      { label : 'CSS3' , url: 'https://devdocs.io/css/'},
+                      { label : 'Python' , url: 'https://www.python.org/'},
+                      { label : 'Three JS' , url: 'https://threejs.org/'},
+                      { label : 'Node JS' , url: 'https://nodejs.org/en'},
+                      { label : 'Typescript' , url: 'https://www.typescriptlang.org/'},
+                      { label : 'npm' , url: 'https://www.npmjs.com/'},
+                      { label : 'GSAP' , url: 'https://greensock.com/gsap/'},
+                      { label : 'Blender' , url: 'https://www.blender.org/'},
+                      { label : 'Solidity' , url: 'https://soliditylang.org/'},
+                      { label : 'Moralis' , url: 'https://moralis.io/'},
+                      { label : 'Hardhat' , url: 'https://hardhat.org/'},
+                      { label : 'Graph' , url: 'https://thegraph.com/'},
+                      { label : 'Yarn' , url: 'https://yarnpkg.com/'},
+                      { label : 'Ethers' , url: 'https://docs.ethers.org/v5/'}
+                    ],
+                  width: 480,
+                  height: 480,
+                  radius: '70%',
+                  radiusMin: 75,
+                  bgDraw: true,
+                  bgColor: '#000',
+                  opacityOver: 1.00,
+                  opacityOut: 0.05,
+                  opacitySpeed: 6,
+                  fov: 800,
+                  speed: 2,
+                  fontFamily: 'Arial, sans-serif',
+                  fontSize: '15',
+                  fontColor: '#fff',
+                  fontWeight: 'normal',//bold
+                  fontStyle: 'normal',//italic 
+                  fontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                  fontToUpperCase: false,
+                  tooltipFontFamily: 'Arial, sans-serif',
+                  tooltipFontSize: '15',
+                  tooltipFontColor: '#fff',
+                  tooltipFontWeight: 'normal',//bold
+                  tooltipFontStyle: 'normal',//italic 
+                  tooltipFontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                  tooltipFontToUpperCase: false,
+                  tooltipTextAnchor: 'left',
+                  tooltipDiffX: 0,
+                  tooltipDiffY: 10,
+                  animatingSpeed: 0.01,
+                  animatingRadiusLimit: 1.3
+
+              };
+
+              if ( params !== undefined )
+                  for ( var prop in params )
+                      if ( params.hasOwnProperty( prop ) && settings.hasOwnProperty( prop ) )
+                          settings[ prop ] = params[ prop ];
+              if ( !settings.entries.length )
+                  return false;
+              var entryHolder = [];
+              var tooltip;
+              var radius;
+              var diameter;
+              var mouseReact = true;
+              var mousePos = { x: 0, y: 0 };
+              var center2D;
+              var center3D = { x: 0, y: 0, z: 0 };
+              var speed = { x: 0, y: 0 };
+              var position = { sx: 0, cx: 0, sy: 0, cy: 0 };
+              var MATHPI180 = Math.PI / 180;
+              var svg;
+              var svgNS = 'http://www.w3.org/2000/svg';
+              var bg;
+              var animFrameId;
+              var radius_factor = 1;
+              function destroy() {
+                  window.cancelAnimFrame( animFrameId );
+                  window.removeEventListener( 'resize', resizeHandler );
+                  if(bg){
+                      svg.removeChild( bg );
+                  }
+              }
+              function init() {
+                  svg = document.createElementNS( svgNS, 'svg' );
+                  svg.addEventListener( 'mousemove', mouseMoveHandler );
+                  element.appendChild( svg );
+                  if ( settings.bgDraw ) {
+                      bg = document.createElementNS( svgNS, 'rect' );
+                      bg.setAttribute( 'x', 0 );
+                      bg.setAttribute( 'y', 0 );
+                      bg.setAttribute( 'fill', settings.bgColor );
+                      svg.appendChild( bg );
+                  }
+
+                  addEntries();
+                  reInit();
+                  animloop();
+
+                  //---
+
+                  window.addEventListener( 'resize', resizeHandler );
+
+              };
+
+              function reInit() {
+
+                  var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                  var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+                  var svgWidth = windowWidth;
+                  var svgHeight = windowHeight;
+
+                  if ( settings.width.toString().indexOf( '%' ) > 0 || settings.height.toString().indexOf( '%' ) > 0 ) {
+
+                      svgWidth = Math.round( element.offsetWidth / 100 * parseInt( settings.width ) );
+                      svgHeight = Math.round( svgWidth / 100 * parseInt( settings.height ) );
+
+                  } else {
+
+                      svgWidth = parseInt( settings.width );
+                      svgHeight = parseInt( settings.height );
+
+                  }
+
+                  if ( windowWidth <= svgWidth )
+                      svgWidth = windowWidth;
+
+                  if ( windowHeight <= svgHeight )
+                      svgHeight = windowHeight;
+
+                  //---
+
+                  center2D = { x: svgWidth / 2, y: svgHeight / 2 };
+
+                  speed.x = settings.speed / center2D.x;
+                  speed.y = settings.speed / center2D.y;
+
+                  if ( svgWidth >= svgHeight )
+                      diameter = svgHeight / 100 * parseInt( settings.radius );
+                  else
+                      diameter = svgWidth / 100 * parseInt( settings.radius );
+
+                  if ( diameter < 1 )
+                      diameter = 1;
+
+                  radius = diameter / 2;
+
+                  if ( radius < settings.radiusMin ) {
+
+                      radius = settings.radiusMin;
+                      diameter = radius * 2;
+
+                  }
+
+                  //---
+
+                  svg.setAttribute( 'width', svgWidth );
+                  svg.setAttribute( 'height', svgHeight );
+
+                  if ( settings.bgDraw ) {
+
+                      bg.setAttribute( 'width', svgWidth );
+                      bg.setAttribute( 'height', svgHeight );
+
+                  }
+
+                  //---
+
+                  setEntryPositions( radius * radius_factor );
+
+              };
+
+              //---
+
+              function setEntryPositions( radius ) {
+
+                  for ( var i = 0, l = entryHolder.length; i < l; i++ ) {
+
+                      setEntryPosition( entryHolder[ i ], radius );
+
+                  }
+
+              };
+
+              function setEntryPosition( entry, radius ) {
+
+                  var dx = entry.vectorPosition.x - center3D.x;
+                  var dy = entry.vectorPosition.y - center3D.y;
+                  var dz = entry.vectorPosition.z - center3D.z;
+
+                  var length = Math.sqrt( dx * dx + dy * dy + dz * dz );
+
+                  entry.vectorPosition.x /= length;
+                  entry.vectorPosition.y /= length;
+                  entry.vectorPosition.z /= length;
+
+                  entry.vectorPosition.x *= radius;
+                  entry.vectorPosition.y *= radius;
+                  entry.vectorPosition.z *= radius;
+
+              };
+
+              function addEntry( index, entryObj, x, y, z ) {
+                  
+                  var entry = {};
+
+                      if ( typeof entryObj.label != 'undefined' ) {
+
+                          entry.element = document.createElementNS( svgNS, 'text' );
+                          entry.element.setAttribute( 'x', 0 );
+                          entry.element.setAttribute( 'y', 0 );
+                          entry.element.setAttribute( 'fill', settings.fontColor );
+                          entry.element.setAttribute( 'font-family', settings.fontFamily );
+                          entry.element.setAttribute( 'font-size', entryObj.fontSize ? entryObj.fontSize : settings.fontSize );
+                          entry.element.setAttribute( 'font-weight', settings.fontWeight );
+                          entry.element.setAttribute( 'font-style', settings.fontStyle );
+                          entry.element.setAttribute( 'font-stretch', settings.fontStretch );
+                          entry.element.setAttribute( 'text-anchor', 'middle' );
+                          entry.element.textContent = settings.fontToUpperCase ? entryObj.label.toUpperCase() : entryObj.label;
+
+                      } else if ( typeof entryObj.image != 'undefined' ) {
+
+                          entry.element = document.createElementNS( svgNS, 'image' );
+                          entry.element.setAttribute( 'x', 0 );
+                          entry.element.setAttribute( 'y', 0 );
+                          entry.element.setAttribute( 'width', entryObj.width );
+                          entry.element.setAttribute( 'height', entryObj.height );
+                          entry.element.setAttribute( 'id', 'image_' + index );
+                          entry.element.setAttributeNS( 'http://www.w3.org/1999/xlink','href', entryObj.image );
+
+                          entry.diffX = entryObj.width / 2;
+                          entry.diffY = entryObj.height / 2;
+                          
+                      }
+
+                      entry.link = document.createElementNS( svgNS, 'a' );
+                      entry.link.setAttributeNS( 'http://www.w3.org/1999/xlink', 'xlink:href', entryObj.url );
+                      entry.link.setAttribute( 'target', entryObj.target );
+                      entry.link.addEventListener( 'mouseover', mouseOverHandler, true );
+                      entry.link.addEventListener( 'mouseout', mouseOutHandler, true );
+                      entry.link.appendChild( entry.element );
+
+                      if ( typeof entryObj.tooltip != 'undefined' ) {
+
+                          entry.tooltip = true;
+                          entry.tooltipLabel = settings.tooltipFontToUpperCase ? entryObj.tooltip.toUpperCase() : entryObj.tooltip;;
+
+                      } else {
+
+                          entry.tooltip = false;
+
+                      }
+
+                      entry.index = index;
+                      entry.mouseOver = false;
+
+                      entry.vectorPosition = { x:x, y:y, z:z };
+                      entry.vector2D = { x:0, y:0 };
+
+                  svg.appendChild( entry.link );
+                      
+                  return entry;
+              
+              };
+
+              function addEntries() {
+
+                  var tooltip = false;
+
+                  for ( var i = 1, l = settings.entries.length + 1; i < l; i++ ) {
+
+                      var phi = Math.acos( -1 + ( 2 * i ) / l );
+                      var theta = Math.sqrt( l * Math.PI ) * phi;
+
+                      var x = Math.cos( theta ) * Math.sin( phi );
+                      var y = Math.sin( theta ) * Math.sin( phi );
+                      var z = Math.cos( phi );
+
+                      var entry = addEntry( i - 1, settings.entries[ i - 1 ], x, y, z );
+                      
+                      entryHolder.push( entry );
+
+                      if ( typeof settings.entries[ i - 1 ].tooltip != 'undefined' ) {
+
+                          tooltip = true;
+
+                      }
+                  
+                  }
+
+                  if ( tooltip ) {
+
+                      addTooltip();
+
+                  }
+              
+              };
+
+              function addTooltip() {
+
+                  tooltip = document.createElementNS( svgNS, 'text' );
+                  tooltip.setAttribute( 'x', 0 );
+                  tooltip.setAttribute( 'y', 0 );
+                  tooltip.setAttribute( 'fill', settings.tooltipFontColor );
+                  tooltip.setAttribute( 'font-family', settings.tooltipFontFamily );
+                  tooltip.setAttribute( 'font-size', settings.tooltipFontSize );
+                  tooltip.setAttribute( 'font-weight', settings.tooltipFontWeight );
+                  tooltip.setAttribute( 'font-style', settings.tooltipFontStyle );
+                  tooltip.setAttribute( 'font-stretch', settings.tooltipFontStretch );
+                  tooltip.setAttribute( 'text-anchor', settings.tooltipTextAnchor );
+                  tooltip.textContent = '';
+
+                  svg.appendChild( tooltip );
+
+              };
+
+              function getEntryByElement( element ) {
+
+                  for ( var i = 0, l = entryHolder.length; i < l; i++ ) {
+
+                      var entry = entryHolder[ i ];
+
+                      if ( entry.element.getAttribute( 'x' ) === element.getAttribute( 'x' ) && 
+                           entry.element.getAttribute( 'y' ) === element.getAttribute( 'y' ) ) {
+
+                          return entry;
+
+                      }
+
+                  }
+
+                  return;
+
+              };
+
+              function highlightEntry( entry ) {
+
+                  for ( var i = 0, l = entryHolder.length; i < l; i++ ) {
+
+                      var e = entryHolder[ i ];
+
+                      if ( e.index === entry.index ) {
+
+                          e.mouseOver = true; 
+
+                      } else {
+
+                          e.mouseOver = false; 
+
+                      }
+
+                  } 
+
+              };
+
+              //---
+
+              function showTooltip( entry ) {
+
+                  if ( entry.tooltip ) {
+
+                      tooltip.setAttribute( 'x', entry.vector2D.x - settings.tooltipDiffX );
+                      tooltip.setAttribute( 'y', entry.vector2D.y - settings.tooltipDiffY );
+
+                      tooltip.textContent = settings.tooltipFontToUpperCase ? entry.tooltipLabel.toUpperCase() : entry.tooltipLabel;
+
+                      tooltip.setAttribute( 'opacity', 1.0 );
+
+                  }
+
+              };
+
+              function hideTooltip( entry ) {
+
+                  tooltip.setAttribute( 'opacity', 0.0 );
+
+              };
+
+              //---
+                  
+              function render() { 
+
+                  var fx = speed.x * mousePos.x - settings.speed;
+                  var fy = settings.speed - speed.y * mousePos.y;
+                  
+                  var angleX = fx * MATHPI180;
+                  var angleY = fy * MATHPI180;
+
+                  position.sx = Math.sin( angleX );
+                  position.cx = Math.cos( angleX );
+                  position.sy = Math.sin( angleY );
+                  position.cy = Math.cos( angleY );
+
+                  //---
+
+                  for ( var i = 0, l = entryHolder.length; i < l; i++ ) {
+          
+                      var entry = entryHolder[ i ];
+
+                      //---
+
+                      if ( mouseReact ) {
+
+                          var rx = entry.vectorPosition.x;
+                          var rz = entry.vectorPosition.y * position.sy + entry.vectorPosition.z * position.cy;
+
+                          entry.vectorPosition.x = rx * position.cx + rz * position.sx;
+                          entry.vectorPosition.y = entry.vectorPosition.y * position.cy + entry.vectorPosition.z * -position.sy;
+                          entry.vectorPosition.z = rx * -position.sx + rz * position.cx;
+
+                      }
+
+                      //---
+
+                      var scale = settings.fov / ( settings.fov + entry.vectorPosition.z );
+
+                      entry.vector2D.x = entry.vectorPosition.x * scale + center2D.x; 
+                      entry.vector2D.y = entry.vectorPosition.y * scale + center2D.y;
+                      
+                      //---
+
+                      if ( entry.diffX && entry.diffY ) {
+
+                          entry.vector2D.x -= entry.diffX;
+                          entry.vector2D.y -= entry.diffY;
+
+                      }
+
+                      //---
+
+                      entry.element.setAttribute( 'x', entry.vector2D.x );
+                      entry.element.setAttribute( 'y', entry.vector2D.y );
+
+                      //---
+
+                      var opacity;
+
+                      if ( mouseReact ) {
+
+                          opacity = ( radius - entry.vectorPosition.z ) / diameter;
+
+                          if ( opacity < settings.opacityOut ) {
+
+                              opacity = settings.opacityOut;
+
+                          }
+
+                      } else {
+
+                          opacity = parseFloat( entry.element.getAttribute( 'opacity' ) );
+
+                          if ( entry.mouseOver ) {
+
+                              opacity += ( settings.opacityOver - opacity ) / settings.opacitySpeed;
+
+                          } else {
+
+                              opacity += ( settings.opacityOut - opacity ) / settings.opacitySpeed;
+
+                          }
+
+                      }
+
+                      entry.element.setAttribute( 'opacity', opacity * (1 - ((radius_factor - 1) / (settings["animatingRadiusLimit"] - 1))) );
+                      
+                  }
+
+                  //---
+
+                  entryHolder = entryHolder.sort( function( a, b ) {
+
+                      return ( b.vectorPosition.z - a.vectorPosition.z );
+
+                  } );
+
+              };
+
+              //---
+
+              window.requestAnimFrame = ( function() {
+
+                  return  window.requestAnimationFrame       ||
+                          window.webkitRequestAnimationFrame ||
+                          window.mozRequestAnimationFrame    ||
+                          function( callback ) {
+                              return window.setTimeout( callback, 1000 / 60 );
+                          };
+
+              } )();
+
+              window.cancelAnimFrame = ( function() {
+
+                  if(window.requestAnimationFrame){
+                      return window.cancelAnimationFrame;
+                  } else if(window.webkitRequestAnimationFrame){
+                      return window.webkitCancelAnimationFrame;
+                  } else if(window.mozRequestAnimationFrame){
+                      return window.mozCancelAnimationFrame;
+                  }
+                  return window.clearTimeout;
+
+              } )();
+
+                  
+              function animloop() {
+
+                  animFrameId = requestAnimFrame( animloop );
+
+                  render();
+
+              };
+
+              //---
+
+              function mouseOverHandler( event ) {
+
+                  mouseReact = false;
+
+                  //---
+
+                  var entry = getEntryByElement( event.target );
+
+                  highlightEntry( entry );
+
+                  if ( entry.tooltip ) {
+
+                      showTooltip( entry );
+
+                  }
+
+              };
+
+              function mouseOutHandler( event ) {
+
+                  mouseReact = true;
+
+                  //---
+
+                  var entry = getEntryByElement( event.target );
+
+                  if ( entry.tooltip ) {
+
+                      hideTooltip( entry );
+
+                  }
+
+              };
+
+              //---
+
+              function mouseMoveHandler( event ) {
+
+                  mousePos = getMousePos( svg, event );
+
+              };
+
+              function getMousePos( svg, event ) {
+
+                  var rect = svg.getBoundingClientRect();
+
+                  return { 
+
+                      x: event.clientX - rect.left, 
+                      y: event.clientY - rect.top 
+
+                  };
+
+              };
+
+              //---
+
+              function resizeHandler( event ) {
+
+                  reInit();
+
+              };
+
+              function setRadiusFactor( factor ){
+                  radius_factor = Math.min(Math.max(factor,1),settings["animatingRadiusLimit"]);
+                  reInit();
+              };
+
+              function resetRadiusFactor(){
+                  setRadiusFactor(1);
+              };
+
+              function setEntries( entries ){
+                  destroy();
+                  settings["entries"] = entries;
+                  init();
+              };
+
+              var animOut_cb = false, animIn_cb = false, animating = false;
+
+              function _animOut(){
+                  if( animating = radius_factor < settings["animatingRadiusLimit"] ){
+                      setRadiusFactor( radius_factor + settings["animatingSpeed"] );
+                      requestAnimFrame( _animOut );
+                  } else {
+                      if(typeof animOut_cb === 'function'){
+                          animOut_cb();
+                          animOut_cb = false;
+                      }
+                  }
+              };
+
+              function _animIn(){
+                  if( animating = radius_factor > 1 ){
+                      setRadiusFactor( radius_factor - settings["animatingSpeed"] );
+                      requestAnimFrame( _animIn );
+                  } else {
+                      if(typeof animIn_cb === 'function'){
+                          animIn_cb();
+                          animIn_cb = false;
+                      }
+                  }
+                  
+              };
+
+              function animOut( callback ){
+                  if(!animating){
+                      radius_factor = 1;
+                      animOut_cb = callback;
+                      _animOut();
+                  }
+              };
+
+              function animIn( callback ){
+                  if(!animating){
+                      radius_factor = settings["animatingRadiusLimit"];
+                      animIn_cb = callback;
+                      _animIn();
+                  }
+              };
+              
+              //---
+
+              init();
+
+              //API
+              this.destroy = destroy;
+              this.animOut = animOut;
+              this.animIn = animIn;
+              this.setEntries = setEntries;
+          };
+
+          window.SVG3DTagCloud = SVG3DTagCloud;
+
+      } () );
+
+      if ( typeof jQuery !== 'undefined' ) {
+
+          ( function( $ ) {
+
+              $.fn.svg3DTagCloud = function( params ) {
+
+                  var args = arguments;
+
+                  return this.each( function() {
+
+                      if ( !$.data( this, 'plugin_SVG3DTagCloud' ) ) {
+
+                          $.data( this, 'plugin_SVG3DTagCloud', new SVG3DTagCloud( this, params ) );
+
+                      } else {
+
+                          var plugin = $.data( this, 'plugin_SVG3DTagCloud' );
+
+                          if ( plugin[ params ] ) {
+
+                              plugin[ params ].apply( this, Array.prototype.slice.call( args, 1 ) );
+
+                          } else {
+
+                              $.error( 'Method ' +  params + ' does not exist on jQuery.svg3DTagCloud' );
+
+                          }
+
+                      }
+
+                  } );
+
+              };
+              
+          } ( jQuery ) );
+
+      }
+    </script>
+    
     <script type="module" src="/main1.js"></script>
     <script type="module" src="/main.js"></script>  
     <script type="module" src="/slider.js"></script>

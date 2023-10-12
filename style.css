@@ -1,9 +1,9 @@
 @import url("https://use.typekit.net/jmk3xov.css");
 @import url("https://utopia.fyi/type/calculator?c=320,26,1.2,1140,80,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l");
-@font-face{
+/*@font-face{
   src: url(assets/Arial Black.woff);
   font-family: Arial;
-}
+}*/
 @font-face{
   src: url(assets/digital-7.ttf);
   font-family: Digital;
@@ -227,6 +227,9 @@ li{
 .open_nav.active5 span.line-2{
     transform: rotate(-45deg);
 }
+.lock-scroll{
+  overflow-y: hidden;
+}
 /*---------- HEADER ----------*/
 header{
   margin-bottom: 5%;
@@ -250,8 +253,11 @@ video{
   z-index: -100;
 }
 .video{
-    display: none;
-  }
+  display: none;
+}
+.filter{
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(29,29,29,0.5) 70%, rgba(29,29,29,1) 100%);
+}
 .header-container{
   display: flex;
   width: 100%;
@@ -542,40 +548,40 @@ p{
   padding: 0;
 }
 .bild-1{
-  background-image: url(C:\Users\Arne\port\website\assets\extension.png);
+  background-image: url('assets/extension.png');
 }
 .bild-2{
-  background-image: url(C:\Users\Arne\port\website\assets\dex.png);
+  background-image: url('assets/dex.png');
 }
 .bild-3{
-  background-image: url(C:\Users\Arne\port\website\assets\market.png);
+  background-image: url('assets/market.png');
 }
 .bild-4{
-  background-image: url(C:\Users\Arne\port\website\assets\lottery.png);
+  background-image: url('assets/lottery.png');
 }
 .bild-5{
-  background-image: url(C:\Users\Arne\port\website\assets\fakemon.png);
+  background-image: url('assets/fakemon.png');
 }
 .bild-6{
-  background-image: url(C:\Users\Arne\port\website\assets\lethalcombat.png);
+  background-image: url('assets/lethalcombat.png');
 }
 .bild-7{
-  background-image: url(C:\Users\Arne\port\website\assets\wof.png);
+  background-image: url('assets/wof.png');
 }
 .bild-8{
-  background-image: url(C:\Users\Arne\port\website\assets\3dd.png);
+  background-image: url('assets/3dd.png');
 }
 .bild-9{
-  background-image: url(C:\Users\Arne\port\website\assets\nfts.png);
+  background-image: url('assets/nfts.png');
 }
 .bild-10{
-  background-image: url(C:\Users\Arne\port\website\assets\idc.png);
+  background-image: url('assets/idc.png');
 }
 .bild-11{
-  background-image: url(C:\Users\Arne\port\website\assets\ak.png);
+  background-image: url('assets/ak.png');
 }
 .bild-12{
-  background-image: url(C:\Users\Arne\port\website\assets\cmngsn.png);
+  background-image: url('assets/cmngsn.png');
 }
 .reveal{
   position: relative;
@@ -630,7 +636,7 @@ p{
   pointer-events: none;
   opacity: 0;
   position: absolute;
-  height: 130%;
+  height: 140%;
   width: 100%;
   transition: all 0.4s ease-in-out;
   transform: translateY(0px);
@@ -645,6 +651,7 @@ p{
 }
 .overlay1:hover ~ .overlay{
   opacity: 0;
+  transform: translateY(100px);
   transition: opacity 0.4s ease-in-out;
 }
 .hovercontent{
@@ -1519,6 +1526,21 @@ textarea{
   .active2{
     height: 25vh;
   }
+  .portfolio .overlay .p{
+    width: 70%;
+  }
+  .portfolio h4{
+  }
+  .portfolio .hovercontent .p{
+    line-height: 20px;
+    width: 80%;
+  }
+  .portfolio .hovercontent button{
+    top: 45%;
+  }
+  .overlay1{
+    height: 160%;
+  }
   .about-me{
     padding: 0;
     margin-bottom: 460px;
@@ -1554,8 +1576,15 @@ textarea{
     top: 100%;
   }
 }
-
-
-
-
+@media (max-width: 480px) and (max-height: 680px) {
+  .active{
+    height: 35vh;
+  }
+  .active1{
+    height: 35vh;
+  }
+  .active2{
+    height: 35vh;
+  }
+}
 
